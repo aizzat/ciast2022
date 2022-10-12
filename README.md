@@ -13,3 +13,6 @@ mypy == 0.982 # For unit test <br />
 flake8 == 5.0.4 # For unit test <br />
 
 `pip install -r requirements/requirements.txt`
+
+To save scan into CSV: 
+`rostopic echo -p /scan > scan.csv`
